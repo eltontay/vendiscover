@@ -12,7 +12,7 @@ import {
   Subtitle,
   BtnWrap,
   ImgWrap,
-  ImgBackground,
+  Img,
 } from './InfoElements';
 
 const InfoSection = ({
@@ -65,7 +65,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <ImgBackground src={img} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>

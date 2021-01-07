@@ -91,8 +91,10 @@ export const BtnWrap = styled.div`
 `;
 
 export const ImgWrap = styled.div`
-  max-width: 555px;
+  width: 100%;
   height: 100%;
+  object-fit: cover;
+  align-items: center;
 `;
 
 export const Img = styled.img`
@@ -100,13 +102,5 @@ export const Img = styled.img`
   margin-top: 0;
   margin-right: 0;
   margin-left: 10px;
-  padding-right: 0;
-`;
-
-export const ImgBackground = styled.img`
-  width: 100%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 0;
   padding-right: 0;
 `;
