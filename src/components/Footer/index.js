@@ -4,7 +4,7 @@ import {
   FaInstagram,
   FaYoutube,
   FaTwitter,
-  FaLinkedin
+  FaLinkedin,
 } from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import {
@@ -20,7 +20,7 @@ import {
   SocialLogo,
   WebsiteRights,
   SocialIcons,
-  SocialIconLink
+  SocialIconLink,
 } from './FooterElements';
 
 const Footer = () => {
@@ -34,67 +34,57 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>About Us</FooterLinkTitle>
-              <FooterLink to='/sign-up'>How it works</FooterLink>
-              <FooterLink to='/'>Testimonials</FooterLink>
-              <FooterLink to='/'>Careers</FooterLink>
-              <FooterLink to='/'>Investors</FooterLink>
-              <FooterLink to='/'>Terms of Service</FooterLink>
+              <FooterLink to="/sign-up">Learn More</FooterLink>
             </FooterLinkItems>
             <FooterLinkItems>
               <FooterLinkTitle>Contact Us</FooterLinkTitle>
-              <FooterLink to='/'>Contact</FooterLink>
-              <FooterLink to='/'>Support</FooterLink>
-              <FooterLink to='/'>Destinations</FooterLink>
-              <FooterLink to='/'>Sponsorships</FooterLink>
+              <FooterLink to="/">Contact</FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
           <FooterLinksWrapper>
             <FooterLinkItems>
-              <FooterLinkTitle>Videos</FooterLinkTitle>
-              <FooterLink to='/'>Submit Video</FooterLink>
-              <FooterLink to='/'>Ambassadors</FooterLink>
-              <FooterLink to='/'>Agency</FooterLink>
-              <FooterLink to='/'>Influencer</FooterLink>
-            </FooterLinkItems>
-            <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to='/'>Instagram</FooterLink>
-              <FooterLink to='/'>Facebook</FooterLink>
-              <FooterLink to='/'>Youtube</FooterLink>
-              <FooterLink to='/'>Twitter</FooterLink>
+              <FooterLink to="https://www.instagram.com/vendiscover_ig/">
+                Instagram
+              </FooterLink>
+              <FooterLink to="https://www.facebook.com/groups/2883959338547074/members">
+                Facebook
+              </FooterLink>
+              <FooterLink to="https://twitter.com/vendiscover">
+                Twitter
+              </FooterLink>
             </FooterLinkItems>
           </FooterLinksWrapper>
         </FooterLinksContainer>
         <SocialMedia>
           <SocialMediaWrap>
-            <SocialLogo to='/' onClick={toggleHome}>
-              dolla
+            <SocialLogo to="/" onClick={toggleHome}>
+              VENDISCOVER
             </SocialLogo>
-            <WebsiteRights>dolla © 2020 All rights reserved.</WebsiteRights>
+            <WebsiteRights>
+              VENDISCOVER © 2020 All rights reserved.
+            </WebsiteRights>
             <SocialIcons>
-              <SocialIconLink href='/' target='_blank' aria-label='Facebook'>
-                <FaFacebook />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+              <SocialIconLink
+                href="https://www.instagram.com/vendiscover_ig/"
+                target="_blank"
+                aria-label="Instagram"
+              >
                 <FaInstagram />
               </SocialIconLink>
               <SocialIconLink
-                href='//www.youtube.com/channel/UCsKsymTY_4BYR-wytLjex7A?view_as=subscriber'
-                target='_blank'
-                aria-label='Youtube'
-                rel='noopener noreferrer'
+                href="https://www.facebook.com/groups/2883959338547074/members"
+                target="_blank"
+                aria-label="Facebook"
               >
-                <FaYoutube />
+                <FaFacebook />
               </SocialIconLink>
               <SocialIconLink
-                target='_blank'
-                aria-label='Twitter'
-                href='//www.twitter.com/briandesignz'
+                target="_blank"
+                aria-label="Twitter"
+                href="//www.twitter.com/briandesignz"
               >
                 <FaTwitter />
-              </SocialIconLink>
-              <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
-                <FaLinkedin />
               </SocialIconLink>
             </SocialIcons>
           </SocialMediaWrap>

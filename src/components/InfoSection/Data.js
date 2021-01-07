@@ -3,17 +3,16 @@ export const homeObjOne = {
   lightBg: false,
   lightText: true,
   lightTextDesc: true,
-  topLine: 'Premium Bank',
-  headline: 'Unlimited Transactions with zero fees',
-  description:
-    'Get access to our exclusive app that allows you to send unlimited transactions without getting charged any fees',
-  buttonLabel: 'Get Started',
+  topLine: 'About',
+  headline: 'Your machine Your products Your voice',
+  description: 'Here at VENDISCOVER, we value you.',
+  buttonLabel: 'Learn more',
   imgStart: false,
   img: require('../../images/svg-1.svg'),
   alt: 'Car',
   dark: true,
   primary: true,
-  darkText: false
+  darkText: false,
 };
 
 export const homeObjTwo = {
@@ -31,23 +30,23 @@ export const homeObjTwo = {
   alt: 'Piggybank',
   dark: false,
   primary: false,
-  darkText: true
+  darkText: true,
 };
 
-export const homeObjThree = {
-  id: 'signup',
-  lightBg: true,
-  lightText: false,
-  lightTextDesc: false,
-  topLine: 'Join our Team',
-  headline: 'Creating an account is extremely easy',
-  description:
-    "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
-  buttonLabel: 'Start Now',
-  imgStart: false,
-  img: require('../../images/svg-3.svg'),
-  alt: 'Papers',
-  dark: false,
-  primary: false,
-  darkText: true
-};
+// export const homeObjThree = {
+//   id: 'signup',
+//   lightBg: true,
+//   lightText: false,
+//   lightTextDesc: false,
+//   topLine: 'Join our Team',
+//   headline: 'Creating an account is extremely easy',
+//   description:
+//     "Get everything set up and ready in under 10 minutes. All you need to do is add your information and you're ready to go.",
+//   buttonLabel: 'Start Now',
+//   imgStart: false,
+//   img: require('../../images/svg-3.svg'),
+//   alt: 'Papers',
+//   dark: false,
+//   primary: false,
+//   darkText: true
+// };

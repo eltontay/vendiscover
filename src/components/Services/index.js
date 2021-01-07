@@ -9,13 +9,13 @@ import {
   ServicesCard,
   ServicesIcon,
   ServicesH2,
-  ServicesP
+  ServicesP,
 } from './ServicesElements';
 
 const Services = () => {
   return (
-    <ServicesContainer id='services'>
-      <ServicesH1>Our Services</ServicesH1>
+    <ServicesContainer id="services">
+      <ServicesH1>Contact Us</ServicesH1>
       <ServicesWrapper>
         <ServicesCard>
           <ServicesIcon src={Icon1} />

@@ -11,7 +11,7 @@ import {
   HeroP,
   HeroBtnWrapper,
   ArrowForward,
-  ArrowRight
+  ArrowRight,
 } from './HeroElements';
 
 function HeroSection() {
@@ -21,30 +21,27 @@ function HeroSection() {
     setHover(!hover);
   };
   return (
-    <HeroContainer id='home'>
+    <HeroContainer id="home">
       <HeroBg>
-        <VideoBg playsInline autoPlay loop muted src={Video} type='video/mp4' />
+        <VideoBg playsInline autoPlay loop muted src={Video} type="video/mp4" />
       </HeroBg>
       <HeroContent>
-        <HeroH1>Virtual Banking Made Easy</HeroH1>
-        <HeroP>
-          Sign up for a new account today and receive $250 in credit towards
-          your next payment.
-        </HeroP>
+        <HeroH1>Digitalising the Norm</HeroH1>
+        <HeroP>Transforming vending machines to the size of your hands</HeroP>
         <HeroBtnWrapper>
           <Button
-            to='signup'
+            //to='signup'
             smooth={true}
             duration={500}
             spy={true}
-            exact='true'
+            exact="true"
             offset={-80}
-            primary='true'
-            dark='true'
+            primary="true"
+            dark="true"
             onMouseEnter={onHover}
             onMouseLeave={onHover}
           >
-            Get Started {hover ? <ArrowForward /> : <ArrowRight />}
+            Discover now {hover ? <ArrowForward /> : <ArrowRight />}
           </Button>
         </HeroBtnWrapper>
       </HeroContent>

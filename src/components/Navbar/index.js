@@ -11,7 +11,7 @@ import {
   NavLogo,
   NavMenu,
   NavBtn,
-  NavBtnLink
+  NavBtnLink,
 } from './NavbarElements';
 
 const Navbar = ({ toggle }) => {
@@ -38,8 +38,8 @@ const Navbar = ({ toggle }) => {
       <IconContext.Provider value={{ color: '#fff' }}>
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
-            <NavLogo onClick={toggleHome} to='/'>
-              dolla
+            <NavLogo onClick={toggleHome} to="/">
+              VENDISCOVER
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />
@@ -47,11 +47,11 @@ const Navbar = ({ toggle }) => {
             <NavMenu>
               <NavItem>
                 <NavLinks
-                  to='about'
+                  to="about"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
                   offset={-80}
                 >
                   About
@@ -59,11 +59,11 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='discover'
+                  to="discover"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
                   offset={-80}
                 >
                   Discover
@@ -71,32 +71,20 @@ const Navbar = ({ toggle }) => {
               </NavItem>
               <NavItem>
                 <NavLinks
-                  to='services'
+                  to="services"
                   smooth={true}
                   duration={500}
                   spy={true}
-                  exact='true'
+                  exact="true"
                   offset={-80}
                 >
-                  Services
-                </NavLinks>
-              </NavItem>
-              <NavItem>
-                <NavLinks
-                  to='signup'
-                  smooth={true}
-                  duration={500}
-                  spy={true}
-                  exact='true'
-                  offset={-80}
-                >
-                  Sign Up
+                  Contact Us
                 </NavLinks>
               </NavItem>
             </NavMenu>
-            <NavBtn>
-              <NavBtnLink to='/signin'>Sign In</NavBtnLink>
-            </NavBtn>
+            {/* <NavBtn>
+              <NavBtnLink to="/signin">Sign In</NavBtnLink>
+            </NavBtn> */}
           </NavbarContainer>
         </Nav>
       </IconContext.Provider>

@@ -12,7 +12,7 @@ import {
   Subtitle,
   BtnWrap,
   ImgWrap,
-  Img
+  ImgBackground,
 } from './InfoElements';
 
 const InfoSection = ({
@@ -29,7 +29,7 @@ const InfoSection = ({
   primary,
   darkText,
   dark,
-  dark2
+  dark2,
 }) => {
   console.log(primary);
   return (
@@ -44,11 +44,11 @@ const InfoSection = ({
                 <Subtitle darkText={darkText}>{description}</Subtitle>
                 <BtnWrap>
                   <Button
-                    to='home'
+                    to="home"
                     smooth={true}
                     duration={500}
                     spy={true}
-                    exact='true'
+                    exact="true"
                     offset={-80}
                     primary={primary ? 1 : 0}
                     dark={dark ? 1 : 0}
@@ -61,7 +61,7 @@ const InfoSection = ({
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={img} alt={alt} />
+                <ImgBackground src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
