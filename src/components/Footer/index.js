@@ -38,13 +38,19 @@ const Footer = () => {
           <FooterLinksWrapper>
             <FooterLinkItems>
               <FooterLinkTitle>Social Media</FooterLinkTitle>
-              <FooterLink to="https://www.instagram.com/vendiscover_ig/">
+              <FooterLink
+                as="a"
+                href="https://www.instagram.com/vendiscover_ig"
+              >
                 Instagram
               </FooterLink>
-              <FooterLink to="https://www.facebook.com/groups/2883959338547074/members">
+              <FooterLink
+                as="a"
+                href="https://www.facebook.com/groups/2883959338547074"
+              >
                 Facebook
               </FooterLink>
-              <FooterLink to="https://twitter.com/vendiscover">
+              <FooterLink as="a" href="https://twitter.com/vendiscover">
                 Twitter
               </FooterLink>
             </FooterLinkItems>
@@ -76,7 +82,7 @@ const Footer = () => {
               <SocialIconLink
                 target="_blank"
                 aria-label="Twitter"
-                href="//www.twitter.com/briandesignz"
+                href="https://twitter.com/vendiscover"
               >
                 <FaTwitter />
               </SocialIconLink>
