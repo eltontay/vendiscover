@@ -6,10 +6,10 @@ import HeroSection from '../components/HeroSection';
 import InfoSection from '../components/InfoSection';
 import {
   homeObjOne,
-  homeObjTwo,
+  //homeObjTwo,
   //homeObjThree
 } from '../components/InfoSection/Data';
-import Services from '../components/Services';
+//import Services from '../components/Services';
 
 function Home() {
   const [isOpen, setIsOpen] = useState(false);
