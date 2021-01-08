@@ -2,7 +2,10 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background: ${({ lightBg }) => (lightBg ? '#f9f9f9' : '#00ced1')};
+  background: ${({ lightBg }) =>
+    lightBg
+      ? '#f9f9f9'
+      : 'linear-gradient(180deg, #40e0d0 0%, rgba(10, 201, 122, 1) 100%)'};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -94,6 +97,7 @@ export const ImgWrap = styled.div`
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background: #232a34;
   align-items: center;
 `;
 

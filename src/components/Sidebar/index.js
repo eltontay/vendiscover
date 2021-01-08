@@ -6,8 +6,9 @@ import {
   SidebarWrapper,
   SidebarMenu,
   SidebarLink,
-  // SidebarRoute,
-  // SideBtnWrap,
+  SidebarRoute,
+  SideBtnWrap,
+  SidebarLinkAdj,
 } from './SidebarElements';
 
 const Sidebar = ({ isOpen, toggle }) => {
@@ -29,8 +30,8 @@ const Sidebar = ({ isOpen, toggle }) => {
           >
             About
           </SidebarLink>
-          <SidebarLink
-            to="discover"
+          <SidebarLinkAdj
+            to="/discover"
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -39,9 +40,8 @@ const Sidebar = ({ isOpen, toggle }) => {
             offset={-80}
           >
             Discover
-          </SidebarLink>
+          </SidebarLinkAdj>
           <SidebarLink
-            to="services"
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -52,9 +52,9 @@ const Sidebar = ({ isOpen, toggle }) => {
             Contact Us
           </SidebarLink>
         </SidebarMenu>
-        {/* <SideBtnWrap>
+        <SideBtnWrap>
           <SidebarRoute to="/signin">Sign In</SidebarRoute>
-        </SideBtnWrap> */}
+        </SideBtnWrap>
       </SidebarWrapper>
     </SidebarContainer>
   );

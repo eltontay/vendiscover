@@ -62,7 +62,7 @@ const Footer = () => {
               VENDISCOVER
             </SocialLogo>
             <WebsiteRights>
-              VENDISCOVER © 2020 All rights reserved.
+              VENDISCOVER © 2021 All rights reserved.
             </WebsiteRights>
             <SocialIcons>
               <SocialIconLink
@@ -80,9 +80,9 @@ const Footer = () => {
                 <FaFacebook />
               </SocialIconLink>
               <SocialIconLink
+                href="https://twitter.com/vendiscover"
                 target="_blank"
                 aria-label="Twitter"
-                href="https://twitter.com/vendiscover"
               >
                 <FaTwitter />
               </SocialIconLink>

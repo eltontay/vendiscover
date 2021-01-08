@@ -1,11 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
 import SignIn from '../components/SignIn';
-import ScrollToTop from '../components/ScrollToTop';
+import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
 
 function SigninPage() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <>
-      <ScrollToTop />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
       <SignIn />
     </>
   );
