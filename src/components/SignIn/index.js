@@ -13,11 +13,6 @@ import {
 } from './SigninElements';
 
 const SignIn = () => {
-  const [hover, setHover] = useState(false);
-
-  const onHover = () => {
-    setHover(!hover);
-  };
   return (
     <>
       <Container id="signin">
